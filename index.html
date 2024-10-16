@@ -30,7 +30,32 @@
       font-size: 1.5rem;
     }
 
-    /* 컨테이너 스타일 */
+    /* 상단 섹션 스타일: 중앙 정렬 및 투명 배경 */
+    .section-container-transparent {
+      display: flex;
+      justify-content: center;
+      margin: 20px auto;
+      width: 90%;
+      background-color: transparent; /* 배경을 투명으로 설정 */
+      padding: 20px;
+    }
+
+    /* 모든 섹션의 내용과 리스트 중앙 정렬 */
+    .section {
+      text-align: center;
+    }
+
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+      text-align: center; /* 리스트 아이템을 중앙 정렬 */
+    }
+
+    .section li {
+      margin-bottom: 10px;
+    }
+
+    /* 기본 섹션 스타일 (하단 섹션에 사용) */
     .section-container {
       display: flex;
       justify-content: space-between;
@@ -40,34 +65,12 @@
       padding: 20px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    
-    /* 아이템 각각의 스타일 */
-    .section {
-      width: 30%;
-      text-align: center;
-    }
-
-    .section ul {
-      list-style: none;
-      padding-left: 0;
-      text-align: left;
-      margin-top: 10px;
-    }
-
-    .section li {
-      margin-bottom: 10px;
-    }
 
     /* 모바일 스타일 */
     @media (max-width: 768px) {
-      .section-container {
+      .section-container, .section-container-transparent {
         flex-direction: column;
         width: 100%;
-      }
-
-      .section {
-        width: 100%;
-        margin-bottom: 20px;
       }
 
       h1 {
@@ -77,6 +80,11 @@
       p, h2 {
         font-size: 1.1rem;
       }
+
+      .section {
+        width: 100%;
+        margin-bottom: 20px;
+      }
     }
   </style>
 </head>
@@ -84,7 +92,8 @@
   <h1>투에이치러닝에 방문하신 것을 환영합니다.</h1>
   <p>우리의 미션: 새로운 소프트웨어 일자리+인력 창출</p>
 
-  <div class="section-container">
+  <!-- 상단 섹션: 배경을 투명하게 설정 -->
+  <div class="section-container-transparent">
     <div class="section">
       <h2>새로운 시대</h2>
       <ul>
@@ -103,6 +112,7 @@
     </div>
   </div>
 
+  <!-- 하단 섹션 -->
   <h2>새로운 강의 형태에 대한 시도 - 평생, 개인 주도 학습</h2>
 
   <div class="section-container">
