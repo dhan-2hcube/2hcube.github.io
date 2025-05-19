@@ -10,4 +10,4 @@ title: 연락처
 📧 이메일: [operations@2hlearn.com](mailto:operations@2hlearn.com)  
 🌐 홈페이지: [2hlearn.github.io](https://2hlearn.github.io)
 
-서울시 ○○구 ○○로 123, 3층 (투에이치큐브)
+(06745) 서울특별시 서초구 강남대로30길 58, 3층
