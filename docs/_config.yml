@@ -1,6 +1,7 @@
 title: 투에이치큐브
 description: 중장년을 위한 실전형 소프트웨어 교육 – 투에이치러닝
 theme: jekyll-theme-cayman
+markdown: kramdown
 
 # 사이트 URL 설정 (배포 후 실제 도메인 또는 깃허브 URL 사용)
 baseurl: "" # 루트 경로
