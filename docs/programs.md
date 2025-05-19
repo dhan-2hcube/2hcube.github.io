@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: 교육 프로그램
+permalink: /programs/
 ---
 
 # 프로그램 소개
