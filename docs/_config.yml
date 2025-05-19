@@ -1,0 +1,22 @@
+title: 투에이치큐브
+description: 중장년을 위한 실전형 소프트웨어 교육 – 투에이치러닝
+theme: jekyll-theme-cayman
+
+# 사이트 URL 설정 (배포 후 실제 도메인 또는 깃허브 URL 사용)
+baseurl: "" # 루트 경로
+url: "https://your-username.github.io" # 실제 깃허브 사용자명으로 수정하세요
+
+# 깃허브 Pages용 설정
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# 빌드 제외 목록 (옵션)
+exclude:
+  - README.md
+
+# Google Analytics (선택)
+# google_analytics: UA-XXXXXXXXX-X
+
+# 로고 이미지 또는 favicon 설정 (선택)
+# logo: /assets/logo.png
