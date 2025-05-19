@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 title: 강사진 소개
+permalink: /teams/
 ---
-
 # 주요 강사진
 
 ## 하석재 대표 (CEO & Chief Instructor)
