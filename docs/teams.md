@@ -3,6 +3,14 @@ layout: default
 title: 강사진 소개
 permalink: /teams/
 ---
+<nav style="text-align:right; font-size: 0.9em;">
+  <a href="/">홈</a> |
+  <a href="/about/">회사 소개</a> |
+  <a href="/programs/">교육 프로그램</a> |
+  <a href="/team/">강사진</a> |
+  <a href="/contact/">문의</a>
+</nav>
+
 # 주요 강사진
 
 ## 하석재 대표 (CEO & Chief Instructor)
