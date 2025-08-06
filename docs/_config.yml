@@ -11,7 +11,10 @@ baseurl: "" # 루트 경로
 url: "https://www.2hcube.com" # 실제 깃허브 사용자명으로 수정하세요
 
 # 깃허브 Pages용 설정
-
+sass:
+  sass_dir: _sass    # 기본값: 변경 없으시면 그대로
+  style: compressed
+  
 kramdown:
   input: GFM
 
