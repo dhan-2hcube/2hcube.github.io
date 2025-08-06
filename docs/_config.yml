@@ -8,6 +8,10 @@ baseurl: "" # 루트 경로
 url: "https://www.2hcube.com" # 실제 깃허브 사용자명으로 수정하세요
 
 # 깃허브 Pages용 설정
+
+buttons:
+  github_hide: true  # “View on GitHub” 버튼 숨김
+  
 markdown: kramdown
 kramdown:
   input: GFM
