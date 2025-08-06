@@ -1,3 +1,4 @@
+---
 title: 투에이치큐브
 description: 하이브리드 교육과 컨설팅을 실천하는 투에이치큐브
 theme: jekyll-theme-cayman
@@ -10,8 +11,7 @@ baseurl: "" # 루트 경로
 url: "https://www.2hcube.com" # 실제 깃허브 사용자명으로 수정하세요
 
 # 깃허브 Pages용 설정
-  
-markdown: kramdown
+
 kramdown:
   input: GFM
 
@@ -24,3 +24,4 @@ exclude:
 
 # 로고 이미지 또는 favicon 설정 (선택)
 # logo: /assets/logo.png
+---
