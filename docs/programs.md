@@ -40,3 +40,7 @@ permalink: /programs/
 - 주 1회 4~6시간 수업
 - 커뮤니티 중심 자율 실습 + 온라인 클립 강의
 - 커피챗 & 멘토링 & GitHub 프로젝트 연동
+
+###
+[문의하기 ->](https://2hcube.com/contact/)
+###
